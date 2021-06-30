@@ -9,7 +9,14 @@ A framework for launching  Django Rest Framework projects  Comes with a custom u
 - Signup/login/logout
 
 ## Initial Setups
-Set up the initial migration for our custom user models in users and build the database.
+1.  Make sure Python 3.7x and Pipenv are already installed. 
+2.  Clone the repo and configure the virtual environment:
+
+```
+$ pipenv install
+$ pipenv shell
+```
+3.Set up the initial migration for our custom user models in users and build the database.
 
 ```
 $ python manage.py makemigrations users
